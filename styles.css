@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fonte de fácil leitura */
+    background-color: #007BFF; /* Azul forte */
+    color: black; /* Muda para preto */
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 1px; /* Espaçamento entre letras */
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #62e018; /* Azul mais escuro */
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: #58bd1e; /* Azul ainda mais escuro */
+}
+
+#result-message {
+    margin-top: 15px;
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    color: black; /* Muda para preto */
+    line-height: 1.5; /* Espaçamento entre as linhas */
+}
+
+#add-section {
+    margin-top: 15px;
+}
+/* CODIGO ABAIXO E DOS OUTROS SITES*/
+
+
+span {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.catalogo {
+    display: flex;
+    gap: 7px;
+}
+
+.sug{
+    margin-right: 8px;
+}
+
+section {
+    background-color:rgb(42, 99, 45); /* Azul forte */
+    padding: 4px;
+    display: flex;
+    border: 2px solid #333; /* Borda para destaque */
+    color: #fff; /* Cor do texto para contraste */
+    border-radius: 7px;
+}
+
+section a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin: 3px;
+}
+#pac-man, #macs{
+margin-left: 23px;
+margin-right: 23px;
+}
+a{
+    cursor: pointer;
+}
+/* CODIGO ACIMA E DOS AQUADRADOS DE OUTROS APPS*/
+
+
+/* Media query para telas menores */
+@media (max-width: 600px) {
+
+    .catalogo {
+        display: flex;
+        gap: 3px;
+    }
+    
+    .sug{
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+    
+    section {
+        background-color:rgb(42, 99, 45); /* Azul forte */
+        padding: 4px;
+        display: flex;
+        border: 1px solid #333; /* Borda para destaque */
+        color: #fff; /* Cor do texto para contraste */
+        border-radius: 7px;
+    }
+    
+    section a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 9px;
+    }
+    
+    .icon {
+        width: 23px;
+        height: 23px;
+    
+    }
+    #pac-man, #macs{
+    margin-left: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    
+    }
+    
